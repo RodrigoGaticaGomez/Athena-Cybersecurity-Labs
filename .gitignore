@@ -1,0 +1,26 @@
+# ===============================
+# Athena Labs - Git Ignore
+# ===============================
+
+# Máquinas virtuales
+01-VM/
+*.vdi
+*.vmdk
+*.ova
+*.ovf
+
+# ISOs
+02-ISO/
+*.iso
+
+# Temporales Windows
+Thumbs.db
+desktop.ini
+
+# Logs temporales
+*.log
+
+# Archivos comprimidos grandes
+*.zip
+*.rar
+*.7z

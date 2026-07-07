@@ -1,0 +1,76 @@
+# Analyst Notes - Caso 002
+
+## Objetivo
+Realizar descubrimiento autorizado de activos dentro de una red doméstica.
+
+## Alcance
+Red analizada:
+192.168.1.0/24
+
+Analista:
+Rodrigo Gatica
+
+## Comandos utilizados
+
+### Host Discovery
+
+nmap -sn 192.168.1.0/24
+
+
+### TCP Enumeration
+
+nmap -sV [IP]
+
+
+### UDP Enumeration
+
+sudo nmap -sU [IP]
+
+
+## Observaciones
+
+### 192.168.1.1
+Router Fiberhome
+
+Servicios:
+- HTTP
+- HTTPS
+
+
+### 192.168.1.2
+MegaWell Limited
+
+Servicios encontrados:
+- DNS
+- DHCP
+- SNMP
+- UPnP
+
+Acción:
+Registrar dispositivo.
+
+
+### 192.168.1.3
+Samsung
+
+Resultado:
+Smart TV validada físicamente.
+
+Estado:
+Autorizado.
+
+
+## Lecciones aprendidas
+
+- Identificación de activos
+- Diferencia entre dispositivo desconocido y amenaza
+- Importancia de validar hallazgos
+- Documentación de evidencia
+
+╔════════════════╗
+║   ATHENA LABS REPORT          
+║                              
+║   CASE: 002                  
+║   STATUS: CLOSED ✅          
+║   RESULT: DOCUMENTED         
+╚════════════════╝

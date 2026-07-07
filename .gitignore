@@ -24,3 +24,6 @@ desktop.ini
 *.zip
 *.rar
 *.7z
+
+# Carpeta auxiliar GitHub
+06-GitHub/

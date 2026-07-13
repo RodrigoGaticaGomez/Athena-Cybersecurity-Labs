@@ -1,0 +1,38 @@
+CASO-003 — ESTRUCTURA MIME
+
+Parte 1
+  Content-Type: multipart/mixed
+  Disposición: [ninguna]
+  Nombre: [sin nombre]
+  Codificación: [ninguna]
+  Tamaño decodificado: 0 bytes
+
+Parte 2
+  Content-Type: multipart/alternative
+  Disposición: [ninguna]
+  Nombre: [sin nombre]
+  Codificación: [ninguna]
+  Tamaño decodificado: 0 bytes
+
+Parte 3
+  Content-Type: text/plain
+  Disposición: [ninguna]
+  Nombre: [sin nombre]
+  Codificación: 8bit
+  Tamaño decodificado: 356 bytes
+
+Parte 4
+  Content-Type: text/html
+  Disposición: [ninguna]
+  Nombre: [sin nombre]
+  Codificación: 8bit
+  Tamaño decodificado: 499 bytes
+
+Parte 5
+  Content-Type: text/html
+  Disposición: attachment
+  Nombre: Revision_de_cuenta.html
+  Codificación: base64
+  Tamaño decodificado: 388 bytes
+  SHA-256: d4079a832e8ba4b17cdab87c7556908455bdef4c4c2ccc1a05a3c07acfaaaffa
+

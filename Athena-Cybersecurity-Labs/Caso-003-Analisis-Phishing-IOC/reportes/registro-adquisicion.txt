@@ -1,0 +1,11 @@
+CASO-003 — REGISTRO DE ADQUISICIÓN
+Fecha de adquisición: 2026-07-13T14:17:31-04:00
+Nombre: correo-phishing-simulado.eml
+Origen: muestra sintética generada localmente
+Clasificación: simulación controlada de phishing
+Tamaño: 2896 bytes
+Tipo identificado: news or mail, Unicode text, UTF-8 text
+SHA-256: ababb1973c1e955dcc7529c4e85cf471c6236398b471281d9c3ea1adcd3f53bc
+MD5: 123e6a64d64f153ea77179edb8f26390
+Permisos aplicados: solo lectura (0444)
+Observación: no se abrió el correo ni su archivo adjunto

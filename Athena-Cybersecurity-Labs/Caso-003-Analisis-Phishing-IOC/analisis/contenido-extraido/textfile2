@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <h2>Alerta de seguridad</h2>
+    <p>Detectamos actividad inusual en su cuenta.</p>
+    <p>Debe verificar su identidad dentro de las próximas
+       <strong>24 horas</strong>.</p>
+    <p>
+      <a href="https://login-microsoft.example/verificar?usuario=analista">
+        https://account.microsoft.com/security
+      </a>
+    </p>
+    <p>También puede consultar el archivo adjunto.</p>
+    <hr>
+    <p><small>SIMULACIÓN CONTROLADA — ATHENA LABS</small></p>
+  </body>
+</html>
+

@@ -1,0 +1,43 @@
+CASO-003 — INDICADORES VALIDADOS
+Clasificación: simulación controlada de phishing
+
+=== URL SOSPECHOSAS ===
+https://login-microsoft.example/verificar?usuario=analista
+https://account-verify.example/session/ATHENA-003
+
+=== DOMINIOS SOSPECHOSOS ===
+micros0ft-support.example
+login-microsoft.example
+account-verify.example
+mail.account-verify.example
+mailer-phishing.example
+
+=== DIRECCIÓN IP DE ORIGEN ===
+203.0.113.77
+
+=== DIRECCIONES DE CORREO SOSPECHOSAS ===
+seguridad@micros0ft-support.example
+verificacion@account-verify.example
+rebotes@mailer-phishing.example
+
+=== HASHES ===
+Correo EML — SHA-256:
+ababb1973c1e955dcc7529c4e85cf471c6236398b471281d9c3ea1adcd3f53bc
+
+Adjunto Revision_de_cuenta.html — SHA-256:
+d4079a832e8ba4b17cdab87c7556908455bdef4c4c2ccc1a05a3c07acfaaaffa
+
+=== ELEMENTO USADO COMO SEÑUELO VISUAL ===
+https://account.microsoft.com/security
+Observación: texto mostrado al usuario; el href real apunta a login-microsoft.example.
+
+=== ELEMENTOS DESCARTADOS O RECLASIFICADOS ===
+header.from — falso positivo de extracción
+smtp.mailfrom — falso positivo de extracción
+20260713134218.003@mailer-phishing.example — Message-ID
+analista@athena-labs.example — destinatario simulado
+athena-labs.example — infraestructura interna simulada
+mail.athena-labs.example — servidor receptor simulado
+
+Nota: los dominios .example y la IP 203.0.113.77 están reservados
+para documentación y se utilizan exclusivamente en este laboratorio.

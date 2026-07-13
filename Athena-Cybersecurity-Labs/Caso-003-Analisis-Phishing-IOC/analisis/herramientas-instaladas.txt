@@ -1,0 +1,21 @@
+CASO-003 — VERIFICACIÓN DE HERRAMIENTAS
+Fecha: 2026-07-13T12:25:52-04:00
+
+=== EJECUTABLES ===
+[OK] exiftool -> /usr/bin/exiftool
+[OK] ripmime -> /usr/bin/ripmime
+[OK] munpack -> /usr/bin/munpack
+[OK] yara -> /usr/bin/yara
+[OK] clamscan -> /usr/bin/clamscan
+[OK] freshclam -> /usr/bin/freshclam
+
+=== VERSIONES DE PAQUETES ===
+clamav: 1.5.3+dfsg-0ubuntu0.24.04.1
+clamav-freshclam: 1.5.3+dfsg-0ubuntu0.24.04.1
+libimage-exiftool-perl: 12.76+dfsg-1
+mpack: 1.6-18
+ripmime: 1.4.0.10.debian.1-3
+yara: 4.5.0-1build2
+
+=== ESTADO DE CLAMAV ===
+ClamAV 1.5.3/28059/Mon Jul 13 02:25:07 2026

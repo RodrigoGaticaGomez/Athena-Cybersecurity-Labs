@@ -1,0 +1,19 @@
+CASO-003 — VALIDACIÓN FINAL
+Fecha: 2026-07-13T14:51:56-04:00
+
+=== HASHES CRÍTICOS ===
+ababb1973c1e955dcc7529c4e85cf471c6236398b471281d9c3ea1adcd3f53bc  Caso-003-Analisis-Phishing-IOC/evidencias/muestra-original/correo-phishing-simulado.eml
+d4079a832e8ba4b17cdab87c7556908455bdef4c4c2ccc1a05a3c07acfaaaffa  Caso-003-Analisis-Phishing-IOC/analisis/contenido-extraido/Revision_de_cuenta.html
+b183eac2f472f78bab40d37e2e01a846e36d50b2c45b5d2cc53d1d5fa3a663e2  Caso-003-Analisis-Phishing-IOC/README.md
+
+=== PROTECCIÓN DEL ORIGINAL ===
+Permisos=-r--r--r-- (444) Tamaño=2896 bytes Archivo=Caso-003-Analisis-Phishing-IOC/evidencias/muestra-original/correo-phishing-simulado.eml
+
+=== SINTAXIS YARA ===
+[OK] Regla YARA válida
+
+=== CAPTURAS DEL README ===
+[OK] 01-verificacion-herramientas.png
+[OK] 02-adquisicion-e-integridad.png
+[OK] 03-deteccion-yara.png
+[OK] 04-enlace-enganoso.png

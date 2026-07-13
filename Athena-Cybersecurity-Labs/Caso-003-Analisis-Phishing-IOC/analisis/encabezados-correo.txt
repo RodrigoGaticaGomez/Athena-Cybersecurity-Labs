@@ -1,0 +1,13 @@
+CASO-003 — ENCABEZADOS DEL CORREO
+
+Date: Mon, 13 Jul 2026 09:42:18 -0400
+From: Seguridad Microsoft <seguridad@micros0ft-support.example>
+To: Analista SOC <analista@athena-labs.example>
+Reply-To: verificacion@account-verify.example
+Return-Path: <rebotes@mailer-phishing.example>
+Subject: URGENTE: Su cuenta será suspendida en 24 horas
+Message-ID: <20260713134218.003@mailer-phishing.example>
+Received: from mail.account-verify.example (mail.account-verify.example [203.0.113.77]) by mail.athena-labs.example with ESMTP; Mon, 13 Jul 2026 09:42:18 -0400
+Authentication-Results: mail.athena-labs.example; spf=fail smtp.mailfrom=micros0ft-support.example; dkim=none; dmarc=fail header.from=micros0ft-support.example
+X-Originating-IP: [203.0.113.77]
+X-Athena-Lab: Controlled-Phishing-Simulation

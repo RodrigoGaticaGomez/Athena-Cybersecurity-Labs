@@ -1,0 +1,30 @@
+CASO-003 — RESULTADO YARA
+
+=== OBJETIVO: Caso-003-Analisis-Phishing-IOC/analisis/copia-trabajo/correo-phishing-simulado.eml ===
+ATHENA_CASO_003_Phishing_Simulado Caso-003-Analisis-Phishing-IOC/analisis/copia-trabajo/correo-phishing-simulado.eml
+0x4b:$domain_1: micros0ft-support.example
+0x261:$domain_1: micros0ft-support.example
+0x29f:$domain_1: micros0ft-support.example
+0x512:$domain_2: login-microsoft.example
+0x728:$domain_2: login-microsoft.example
+0xad:$domain_3: account-verify.example
+0x189:$domain_3: account-verify.example
+0x1a6:$domain_3: account-verify.example
+0xda:$domain_4: mailer-phishing.example
+0x15c:$domain_4: mailer-phishing.example
+0x249:$auth_1: spf=fail
+0x287:$auth_2: dmarc=fail
+0x27c:$auth_3: dkim=none
+0x133:$urgency_1: 24 horas
+0x4e7:$urgency_1: 24 horas
+0x6f2:$urgency_1: 24 horas
+0x71a:$html_link: href=
+0x5b1:$lab_marker: ATHENA LABS
+0x80a:$lab_marker: ATHENA LABS
+
+=== OBJETIVO: Caso-003-Analisis-Phishing-IOC/analisis/contenido-extraido/Revision_de_cuenta.html ===
+ATHENA_CASO_003_Phishing_Simulado Caso-003-Analisis-Phishing-IOC/analisis/contenido-extraido/Revision_de_cuenta.html
+0x118:$domain_3: account-verify.example
+0x10a:$html_link: href=
+0xac:$lab_marker: Athena Labs
+

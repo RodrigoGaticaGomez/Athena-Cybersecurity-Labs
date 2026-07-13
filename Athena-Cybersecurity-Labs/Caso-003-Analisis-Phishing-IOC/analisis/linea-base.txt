@@ -1,0 +1,24 @@
+CASO-003 — LÍNEA BASE DEL LABORATORIO
+Fecha: 2026-07-13T12:22:26-04:00
+Zona horaria: America/Santiago
+
+=== SISTEMA OPERATIVO ===
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+VERSION_ID="24.04"
+Kernel: 6.17.0-35-generic
+Arquitectura: x86_64
+
+=== HERRAMIENTAS DISPONIBLES ===
+[DISPONIBLE] file -> /usr/bin/file
+[DISPONIBLE] strings -> /usr/bin/strings
+[DISPONIBLE] sha256sum -> /usr/bin/sha256sum
+[DISPONIBLE] md5sum -> /usr/bin/md5sum
+[DISPONIBLE] python3 -> /usr/bin/python3
+[DISPONIBLE] openssl -> /usr/bin/openssl
+[DISPONIBLE] curl -> /usr/bin/curl
+[DISPONIBLE] jq -> /usr/bin/jq
+[NO DISPONIBLE] exiftool
+[NO DISPONIBLE] ripmime
+[NO DISPONIBLE] munpack
+[NO DISPONIBLE] yara
+[NO DISPONIBLE] clamscan

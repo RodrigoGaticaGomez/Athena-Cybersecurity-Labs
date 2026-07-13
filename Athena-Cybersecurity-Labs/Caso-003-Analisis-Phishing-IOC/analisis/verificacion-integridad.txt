@@ -1,0 +1,16 @@
+CASO-003 — VERIFICACIÓN DE INTEGRIDAD
+Fecha: 2026-07-13T14:21:03-04:00
+
+=== EVIDENCIA ORIGINAL ===
+Archivo: Caso-003-Analisis-Phishing-IOC/evidencias/muestra-original/correo-phishing-simulado.eml
+Permisos: -r--r--r-- (444)
+Tamaño: 2896 bytes
+SHA-256: ababb1973c1e955dcc7529c4e85cf471c6236398b471281d9c3ea1adcd3f53bc
+
+=== COPIA DE TRABAJO ===
+Archivo: Caso-003-Analisis-Phishing-IOC/analisis/copia-trabajo/correo-phishing-simulado.eml
+Permisos: -rw-r--r-- (644)
+Tamaño: 2896 bytes
+SHA-256: ababb1973c1e955dcc7529c4e85cf471c6236398b471281d9c3ea1adcd3f53bc
+
+Resultado: ÍNTEGROS — contenido idéntico byte por byte

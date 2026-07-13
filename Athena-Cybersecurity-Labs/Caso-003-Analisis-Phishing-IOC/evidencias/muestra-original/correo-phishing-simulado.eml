@@ -1,0 +1,79 @@
+Date: Mon, 13 Jul 2026 09:42:18 -0400
+From: Seguridad Microsoft <seguridad@micros0ft-support.example>
+To: Analista SOC <analista@athena-labs.example>
+Reply-To: verificacion@account-verify.example
+Return-Path: <rebotes@mailer-phishing.example>
+Subject: URGENTE: Su cuenta =?utf-8?q?ser=C3=A1?= suspendida en 24 horas
+Message-ID: <20260713134218.003@mailer-phishing.example>
+Received: from mail.account-verify.example (mail.account-verify.example
+ [203.0.113.77]) by mail.athena-labs.example with ESMTP; Mon, 13 Jul 2026
+ 09:42:18 -0400
+Authentication-Results: mail.athena-labs.example; spf=fail
+ smtp.mailfrom=micros0ft-support.example; dkim=none; dmarc=fail
+ header.from=micros0ft-support.example
+X-Athena-Lab: Controlled-Phishing-Simulation
+X-Originating-IP: [203.0.113.77]
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============1965429679035529632=="
+
+--===============1965429679035529632==
+Content-Type: multipart/alternative;
+ boundary="===============5857768983919012716=="
+
+--===============5857768983919012716==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Estimado usuario:
+
+Detectamos actividad inusual en su cuenta. Para evitar la suspensión,
+debe verificar su identidad dentro de las próximas 24 horas.
+
+Verifique su cuenta en:
+https://login-microsoft.example/verificar?usuario=analista
+
+También puede consultar el archivo adjunto.
+
+Equipo de Seguridad de Microsoft
+
+SIMULACIÓN CONTROLADA — ATHENA LABS
+
+--===============5857768983919012716==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+MIME-Version: 1.0
+
+<html>
+  <body>
+    <h2>Alerta de seguridad</h2>
+    <p>Detectamos actividad inusual en su cuenta.</p>
+    <p>Debe verificar su identidad dentro de las próximas
+       <strong>24 horas</strong>.</p>
+    <p>
+      <a href="https://login-microsoft.example/verificar?usuario=analista">
+        https://account.microsoft.com/security
+      </a>
+    </p>
+    <p>También puede consultar el archivo adjunto.</p>
+    <hr>
+    <p><small>SIMULACIÓN CONTROLADA — ATHENA LABS</small></p>
+  </body>
+</html>
+
+--===============5857768983919012716==--
+
+--===============1965429679035529632==
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Revision_de_cuenta.html"
+MIME-Version: 1.0
+
+PCFET0NUWVBFIGh0bWw+CjxodG1sPgogIDxoZWFkPjx0aXRsZT5SZXZpc2nDs24gZGUgY3VlbnRh
+PC90aXRsZT48L2hlYWQ+CiAgPGJvZHk+CiAgICA8aDE+VmVyaWZpY2FjacOzbiByZXF1ZXJpZGE8
+L2gxPgogICAgPHA+RXN0ZSBhcmNoaXZvIGVzIHVuYSBzaW11bGFjacOzbiBjb250cm9sYWRhIGRl
+IEF0aGVuYSBMYWJzLjwvcD4KICAgIDxwPk5vIGNvbnRpZW5lIEphdmFTY3JpcHQsIGZvcm11bGFy
+aW9zIG5pIGPDs2RpZ28gZWplY3V0YWJsZS48L3A+CiAgICA8YSBocmVmPSJodHRwczovL2FjY291
+bnQtdmVyaWZ5LmV4YW1wbGUvc2Vzc2lvbi9BVEhFTkEtMDAzIj4KICAgICAgQ29udGludWFyIGNv
+biBsYSB2ZXJpZmljYWNpw7NuCiAgICA8L2E+CiAgPC9ib2R5Pgo8L2h0bWw+Cg==
+
+--===============1965429679035529632==--

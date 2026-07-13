@@ -1,0 +1,29 @@
+CASO-003 — INDICADORES EXTRAÍDOS
+Clasificación: simulación controlada; no consultar ni visitar
+
+=== URL ===
+https://account-verify.example/session/ATHENA-003
+https://account.microsoft.com/security
+https://login-microsoft.example/verificar?usuario=analista
+
+=== DOMINIOS ===
+account-verify.example
+account.microsoft.com
+athena-labs.example
+header.from
+login-microsoft.example
+mail.account-verify.example
+mail.athena-labs.example
+mailer-phishing.example
+micros0ft-support.example
+smtp.mailfrom
+
+=== DIRECCIONES IP ===
+203.0.113.77
+
+=== DIRECCIONES DE CORREO ===
+20260713134218.003@mailer-phishing.example
+analista@athena-labs.example
+rebotes@mailer-phishing.example
+seguridad@micros0ft-support.example
+verificacion@account-verify.example

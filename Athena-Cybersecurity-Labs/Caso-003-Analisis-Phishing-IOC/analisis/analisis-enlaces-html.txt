@@ -1,0 +1,12 @@
+=== CUERPO HTML DEL CORREO ===
+Enlace 1
+  Texto visible: https://account.microsoft.com/security
+  Destino real: https://login-microsoft.example/verificar?usuario=analista
+  Evaluación: ALERTA — dominio visible y destino no coinciden
+
+=== ADJUNTO HTML ===
+Enlace 1
+  Texto visible: Continuar con la verificación
+  Destino real: https://account-verify.example/session/ATHENA-003
+  Evaluación: texto descriptivo; revisar destino manualmente
+

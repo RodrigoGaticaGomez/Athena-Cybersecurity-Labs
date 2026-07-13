@@ -1,0 +1,61 @@
+[
+    {
+        "Name": "caso005-red",
+        "Id": "d9b5a8c3e41793eff79709c8d5c0674f278935e840f7459377845e5c2fd56908",
+        "Created": "2026-07-13T18:14:42.109718348-04:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.30.5.0/24",
+                    "Gateway": "172.30.5.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Options": {},
+        "Labels": {
+            "com.docker.compose.config-hash": "445b22d506867bb589caea9fbe2c79db3da3024945376b5b0e6e15a26d1e1271",
+            "com.docker.compose.network": "caso005-red",
+            "com.docker.compose.project": "lab",
+            "com.docker.compose.version": "5.3.1"
+        },
+        "Containers": {
+            "6e18bb2067e286d61127106c451e43d1c966170f7b93b78ab0f607c9f057a523": {
+                "Name": "caso005-atacante",
+                "EndpointID": "1c3748c8cc73eb6de46a4f7ba058fb6b35be953a021109a2d1640ea32b806511",
+                "MacAddress": "62:e3:5f:b9:c5:69",
+                "IPv4Address": "172.30.5.20/24",
+                "IPv6Address": ""
+            },
+            "8cac252fff055efc26c247c342bbde5612fc80810298fd48a71babbb7ffc70ed": {
+                "Name": "caso005-nginx",
+                "EndpointID": "1d67e5242c37f186d6db0b13f542238ee76eca84715fee755e7b9a4988f625ad",
+                "MacAddress": "ae:03:bb:de:8e:06",
+                "IPv4Address": "172.30.5.10/24",
+                "IPv6Address": ""
+            }
+        },
+        "Status": {
+            "IPAM": {
+                "Subnets": {
+                    "172.30.5.0/24": {
+                        "IPsInUse": 5,
+                        "DynamicIPsAvailable": 251
+                    }
+                }
+            }
+        }
+    }
+]

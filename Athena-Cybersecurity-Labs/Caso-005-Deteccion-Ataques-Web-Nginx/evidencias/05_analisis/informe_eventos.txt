@@ -1,0 +1,44 @@
+CASO-005 — ANÁLISIS DE EVENTOS NGINX
+Generado: 2026-07-13T18:29:32-04:00
+
+=== CONTEO POR FASE ===
+Tráfico legítimo: 9
+Enumeración de rutas: 11
+Sondas SQLi/XSS/archivo sensible: 3
+Solicitudes malformadas: 2
+
+=== ESTADOS HTTP DURANTE LA ENUMERACIÓN ===
+HTTP 200: 2 eventos
+HTTP 403: 2 eventos
+HTTP 404: 7 eventos
+
+=== RUTAS CONSULTADAS DURANTE LA ENUMERACIÓN ===
+/
+/about.html
+/robots.txt
+/login
+/admin
+/admin/
+/.env
+/.git/config
+/wp-login.php
+/phpmyadmin
+/backup.zip
+
+=== SONDAS DE ATAQUE REGISTRADAS ===
+172.30.5.20 | HTTP 404 | /login?user=admin%27+OR+%271%27%3d%271&password=test
+172.30.5.20 | HTTP 404 | /search?q=%3cscript%3ealert%28%27athena%27%29%3c%2fscript%3e
+172.30.5.20 | HTTP 404 | /.env
+
+=== SOLICITUDES MALFORMADAS ===
+2026-07-13T22:22:57+00:00 | 172.30.5.20 | HTTP 400 | URI=""
+2026-07-13T22:24:32+00:00 | 172.30.5.20 | HTTP 400 | URI=""
+
+=== HALLAZGOS ===
+1. Enumeración automatizada desde 172.30.5.20.
+2. Accesos reiterados a recursos inexistentes y protegidos.
+3. Sonda SQL injection detectada en parámetros de /login.
+4. Sonda XSS detectada en el parámetro q de /search.
+5. Intento de acceso al archivo sensible /.env.
+6. Solicitudes de path traversal rechazadas con HTTP 400.
+7. No se observó compromiso ni exposición de archivos.

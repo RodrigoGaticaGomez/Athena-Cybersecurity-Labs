@@ -1,0 +1,499 @@
+[
+    {
+        "Id": "8cac252fff055efc26c247c342bbde5612fc80810298fd48a71babbb7ffc70ed",
+        "Created": "2026-07-13T22:14:42.210887923Z",
+        "Path": "/docker-entrypoint.sh",
+        "Args": [
+            "nginx",
+            "-g",
+            "daemon off;"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 15744,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-07-13T22:14:42.558992441Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:a8b39bd9cf0f83869a2162827a0caf6137ddf759d50a171451b335cecc87d236",
+        "ResolvConfPath": "/var/lib/docker/containers/8cac252fff055efc26c247c342bbde5612fc80810298fd48a71babbb7ffc70ed/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/8cac252fff055efc26c247c342bbde5612fc80810298fd48a71babbb7ffc70ed/hostname",
+        "HostsPath": "/var/lib/docker/containers/8cac252fff055efc26c247c342bbde5612fc80810298fd48a71babbb7ffc70ed/hosts",
+        "LogPath": "/var/lib/docker/containers/8cac252fff055efc26c247c342bbde5612fc80810298fd48a71babbb7ffc70ed/8cac252fff055efc26c247c342bbde5612fc80810298fd48a71babbb7ffc70ed-json.log",
+        "Name": "/caso005-nginx",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": [
+            "c94fea2917a079635414ec3703883a7b4b29686eb7c980bfca1cff5b27d80117",
+            "520cd4e875a979f0fda5c36ac9ab5e0f04518753ebb9c980d04f0eb8476606c3"
+        ],
+        "HostConfig": {
+            "Binds": [
+                "/home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-005-Deteccion-Ataques-Web-Nginx/lab/nginx/conf.d/caso005.conf:/etc/nginx/conf.d/default.conf:ro",
+                "/home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-005-Deteccion-Ataques-Web-Nginx/lab/nginx/html:/usr/share/nginx/html:ro"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "caso005-red",
+            "PortBindings": {
+                "80/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": "8081"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-005-Deteccion-Ataques-Web-Nginx/lab/nginx/conf.d/caso005.conf",
+                "Destination": "/etc/nginx/conf.d/default.conf",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            },
+            {
+                "Type": "bind",
+                "Source": "/home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-005-Deteccion-Ataques-Web-Nginx/lab/nginx/html",
+                "Destination": "/usr/share/nginx/html",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "8cac252fff05",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NGINX_VERSION=1.28.3",
+                "PKG_RELEASE=1",
+                "DYNPKG_RELEASE=1",
+                "NJS_VERSION=0.9.6",
+                "NJS_RELEASE=1",
+                "ACME_VERSION=0.3.1"
+            ],
+            "Cmd": [
+                "nginx",
+                "-g",
+                "daemon off;"
+            ],
+            "Image": "nginx:1.28-alpine",
+            "Volumes": null,
+            "WorkingDir": "/",
+            "Entrypoint": [
+                "/docker-entrypoint.sh"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "26729fda7e5fe7cd96dc2b722eeccd7c3dbad9ad2ac89ff5c8ac050673951a20",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:a8b39bd9cf0f83869a2162827a0caf6137ddf759d50a171451b335cecc87d236",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "lab",
+                "com.docker.compose.project.config_files": "/home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-005-Deteccion-Ataques-Web-Nginx/lab/compose.yaml",
+                "com.docker.compose.project.working_dir": "/home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-005-Deteccion-Ataques-Web-Nginx/lab",
+                "com.docker.compose.service": "nginx",
+                "com.docker.compose.version": "5.3.1",
+                "maintainer": "NGINX Docker Maintainers <docker-maint@nginx.com>"
+            },
+            "StopSignal": "SIGQUIT"
+        },
+        "NetworkSettings": {
+            "SandboxID": "6b2599dc931adfd6b2b72a4a1d863f7b5747d76cbed1c289227f47afe8e3acba",
+            "SandboxKey": "/var/run/docker/netns/6b2599dc931a",
+            "Ports": {
+                "80/tcp": [
+                    {
+                        "HostIp": "127.0.0.1",
+                        "HostPort": "8081"
+                    }
+                ]
+            },
+            "Networks": {
+                "caso005-red": {
+                    "IPAMConfig": {
+                        "IPv4Address": "172.30.5.10"
+                    },
+                    "Links": null,
+                    "Aliases": [
+                        "caso005-nginx",
+                        "nginx"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "d9b5a8c3e41793eff79709c8d5c0674f278935e840f7459377845e5c2fd56908",
+                    "EndpointID": "1d67e5242c37f186d6db0b13f542238ee76eca84715fee755e7b9a4988f625ad",
+                    "Gateway": "172.30.5.1",
+                    "IPAddress": "172.30.5.10",
+                    "MacAddress": "ae:03:bb:de:8e:06",
+                    "IPPrefixLen": 24,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "caso005-nginx",
+                        "nginx",
+                        "8cac252fff05"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:0dcc88822d45581e65ae329f8be769762bf628d3b2bb7d2a077d4aa5c98b30e3",
+            "size": 2493,
+            "annotations": {
+                "com.docker.official-images.bashbrew.arch": "amd64",
+                "org.opencontainers.image.base.digest": "sha256:6ee8a60426eecd547e15e956742947935ccc66f39811c6ab161d98c6ba6ac148",
+                "org.opencontainers.image.base.name": "nginx:1.28.3-alpine-slim",
+                "org.opencontainers.image.created": "2026-03-24T23:11:09Z",
+                "org.opencontainers.image.revision": "30c9ebf5aba124ca7bd79f97dd7c825c113ed864",
+                "org.opencontainers.image.source": "https://github.com/nginx/docker-nginx.git#30c9ebf5aba124ca7bd79f97dd7c825c113ed864:stable/alpine",
+                "org.opencontainers.image.url": "https://hub.docker.com/_/nginx",
+                "org.opencontainers.image.version": "1.28.3-alpine"
+            },
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    },
+    {
+        "Id": "6e18bb2067e286d61127106c451e43d1c966170f7b93b78ab0f607c9f057a523",
+        "Created": "2026-07-13T22:14:42.191164261Z",
+        "Path": "/entrypoint.sh",
+        "Args": [
+            "sleep",
+            "infinity"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 15740,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-07-13T22:14:42.553229446Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:463eaf6072688fe96ac64fa623fe73e1dbe25d8ad6c34404a669ad3ce1f104b6",
+        "ResolvConfPath": "/var/lib/docker/containers/6e18bb2067e286d61127106c451e43d1c966170f7b93b78ab0f607c9f057a523/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/6e18bb2067e286d61127106c451e43d1c966170f7b93b78ab0f607c9f057a523/hostname",
+        "HostsPath": "/var/lib/docker/containers/6e18bb2067e286d61127106c451e43d1c966170f7b93b78ab0f607c9f057a523/hosts",
+        "LogPath": "/var/lib/docker/containers/6e18bb2067e286d61127106c451e43d1c966170f7b93b78ab0f607c9f057a523/6e18bb2067e286d61127106c451e43d1c966170f7b93b78ab0f607c9f057a523-json.log",
+        "Name": "/caso005-atacante",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "caso005-red",
+            "PortBindings": {},
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [],
+        "Config": {
+            "Hostname": "6e18bb2067e2",
+            "Domainname": "",
+            "User": "curl_user",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "CURL_CA_BUNDLE=/cacert.pem"
+            ],
+            "Cmd": [
+                "sleep",
+                "infinity"
+            ],
+            "Image": "curlimages/curl:8.16.0",
+            "Volumes": null,
+            "WorkingDir": "/home/curl_user",
+            "Entrypoint": [
+                "/entrypoint.sh"
+            ],
+            "Labels": {
+                "com.docker.compose.config-hash": "d6e81c86083e7f9a5bf38ab29241d14f3b65935a7672f80fef9cfc0d1e0c4ede",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:463eaf6072688fe96ac64fa623fe73e1dbe25d8ad6c34404a669ad3ce1f104b6",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "lab",
+                "com.docker.compose.project.config_files": "/home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-005-Deteccion-Ataques-Web-Nginx/lab/compose.yaml",
+                "com.docker.compose.project.working_dir": "/home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-005-Deteccion-Ataques-Web-Nginx/lab",
+                "com.docker.compose.service": "atacante",
+                "com.docker.compose.version": "5.3.1",
+                "docker.cmd": "podman run -it quay.io/curl/:8.16.0",
+                "io.buildah.version": "1.33.7",
+                "maintainer": "James Fuller <jim.fuller@webcomposite.com>",
+                "name": "curl-linux-amd64:8.16.0",
+                "org.opencontainers.image.description": "minimal image for curl",
+                "org.opencontainers.image.licenses": "MIT",
+                "org.opencontainers.image.source": "https://github.com/curl/curl-container",
+                "version": "8.16.0"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "ab40d19b9e891dac8ab3a7336f507af9c0b45d4001c302f1cd1a8d0cd368871e",
+            "SandboxKey": "/var/run/docker/netns/ab40d19b9e89",
+            "Ports": {},
+            "Networks": {
+                "caso005-red": {
+                    "IPAMConfig": {
+                        "IPv4Address": "172.30.5.20"
+                    },
+                    "Links": null,
+                    "Aliases": [
+                        "caso005-atacante",
+                        "atacante"
+                    ],
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "d9b5a8c3e41793eff79709c8d5c0674f278935e840f7459377845e5c2fd56908",
+                    "EndpointID": "1c3748c8cc73eb6de46a4f7ba058fb6b35be953a021109a2d1640ea32b806511",
+                    "Gateway": "172.30.5.1",
+                    "IPAddress": "172.30.5.20",
+                    "MacAddress": "62:e3:5f:b9:c5:69",
+                    "IPPrefixLen": 24,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "caso005-atacante",
+                        "atacante",
+                        "6e18bb2067e2"
+                    ]
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+            "digest": "sha256:5a91ea0c9c3ee27b4abe657b68cf6bf0676afa13b236b3bda34283cb3924d4f6",
+            "size": 751,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

@@ -1,0 +1,28 @@
+services:
+  nginx:
+    image: nginx:1.28-alpine
+    container_name: caso005-nginx
+    ports:
+      - "127.0.0.1:8081:80"
+    volumes:
+      - ./nginx/html:/usr/share/nginx/html:ro
+      - ./nginx/conf.d/caso005.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      caso005-red:
+        ipv4_address: 172.30.5.10
+
+  atacante:
+    image: curlimages/curl:8.16.0
+    container_name: caso005-atacante
+    command: ["sleep", "infinity"]
+    networks:
+      caso005-red:
+        ipv4_address: 172.30.5.20
+
+networks:
+  caso005-red:
+    name: caso005-red
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.30.5.0/24

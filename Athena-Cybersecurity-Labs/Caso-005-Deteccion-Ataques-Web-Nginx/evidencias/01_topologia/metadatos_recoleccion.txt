@@ -1,0 +1,9 @@
+CASO-005 — Metadatos de recolección
+Fecha local: 2026-07-13T18:28:31-04:00
+Fecha UTC: 2026-07-13T22:28:31+00:00
+Host: athena-workstation
+Usuario: rodrigo
+Docker: Docker version 29.6.1, build 8900f1d
+Docker Compose: Docker Compose version v5.3.1
+Imagen Nginx: nginx:1.28-alpine
+Imagen atacante: curlimages/curl:8.16.0

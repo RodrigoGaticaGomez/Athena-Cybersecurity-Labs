@@ -1,0 +1,57 @@
+CASO-006 — LÍNEA BASE DE RECURSOS
+Fecha de recolección: 2026-07-12T20:25:23-04:00
+
+=== CARGA Y TIEMPO ACTIVO ===
+ 20:25:23 up  1:35,  1 user,  load average: 0,75, 0,81, 0,68
+
+=== MEMORIA ===
+               total       usado       libre  compartido   búf/caché  disponible
+Mem:            19Gi       5,4Gi       7,6Gi        17Mi       6,4Gi        14Gi
+Inter:         8,0Gi       408Ki       8,0Gi
+
+=== ACTIVIDAD DEL SISTEMA: 5 MUESTRAS ===
+procs -----------memory---------- ---swap-- -----io---- -system-- -------cpu-------
+ r  b   swpd  libre   búf caché   si   so    bi    bo   in   cs us sy id wa st gu
+ 1  0    408 7993932  65720 6629132    0    0  3312  1834 1904    4  3  1 96  0  0  0
+ 0  0    408 7992716  65720 6629212    0    0     0    24 1497 6067  2  2 96  0  0  0
+ 0  0    408 7992920  65744 6629188    0    0     0   120  995 5963  1  0 99  0  0  0
+ 0  0    408 7991400  65744 6629216    0    0     0     0  916 6126  1  0 99  0  0  0
+ 1  0    408 7990256  65744 6629216    0    0     0     0 1007 6759  1  0 99  0  0  0
+
+=== ESPACIO EN DISCO ===
+S.ficheros     Tipo Tamaño Usados  Disp Uso% Montado en
+/dev/sda5      ext4   393G    36G  338G  10% /
+
+=== PROCESOS CON MAYOR USO DE CPU ===
+    PID COMMAND         %CPU %MEM
+   5624 Isolated Web Co 28.9  4.2
+   4273 firefox         11.7  5.5
+   5015 Isolated Web Co  7.0  3.7
+   3558 gnome-shell      3.6  2.3
+   3120 Xorg             1.4  0.4
+   5201 Utility Process  1.4  0.2
+  11273 Isolated Web Co  0.9  1.8
+   8560 python3          0.6  7.1
+  13705 nautilus         0.6  1.2
+  13965 gnome-terminal-  0.5  0.2
+
+=== PROCESOS CON MAYOR USO DE MEMORIA ===
+    PID COMMAND         %CPU %MEM
+   8560 python3          0.6  7.1
+   4273 firefox         11.7  5.5
+   5624 Isolated Web Co 28.9  4.2
+   5015 Isolated Web Co  7.0  3.7
+   3558 gnome-shell      3.6  2.3
+  11273 Isolated Web Co  0.9  1.8
+  13705 nautilus         0.6  1.2
+   4599 Privileged Cont  0.1  0.9
+   4088 xdg-desktop-por  0.0  0.6
+   3608 snapd-desktop-i  0.0  0.5
+
+=== RECURSOS DE OPEN WEBUI ===
+CONTAINER ID   NAME         CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O       PIDS
+adb6d2e7de56   open-webui   1.18%     1.536GiB / 19.44GiB   7.90%     18.5kB / 13.8kB   567MB / 217kB   61
+
+=== ESTADO RESUMIDO DE GPU ===
+name, temperature.gpu, utilization.gpu [%], memory.used [MiB], memory.total [MiB], power.draw [W]
+NVIDIA GeForce RTX 4060, 40, 3 %, 691 MiB, 8188 MiB, [N/A]

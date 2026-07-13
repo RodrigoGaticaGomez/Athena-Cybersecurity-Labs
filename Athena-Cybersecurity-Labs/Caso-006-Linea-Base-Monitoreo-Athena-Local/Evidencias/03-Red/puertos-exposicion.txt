@@ -1,0 +1,29 @@
+CASO-006 — PUERTOS Y EXPOSICIÓN DE RED
+Fecha de recolección: 2026-07-12T20:22:34-04:00
+
+=== PUERTOS DE ATHENA LOCAL ===
+LISTEN 0      4096       127.0.0.1:3000       0.0.0.0:*    users:(("docker-proxy",pid=8580,fd=8))   
+LISTEN 0      4096               *:11434            *:*    users:(("ollama",pid=8496,fd=4))         
+
+=== PUBLICACIÓN DE PUERTOS DOCKER ===
+8080/tcp -> 127.0.0.1:3000
+
+=== ESTADO DEL FIREWALL UFW ===
+Estado: activo
+Acceso: on (low)
+Predeterminado: deny (entrantes), allow (salientes), deny (enrutados)
+Perfiles nuevos: skip
+
+Hasta                      Acción      Desde
+-----                      ------      -----
+172.17.0.1 11434/tcp on docker0 ALLOW IN    Anywhere                   # Ollama desde Docker
+
+
+=== PRUEBA LOCAL: OLLAMA ===
+HTTP 200
+
+=== PRUEBA LOCAL: OPEN WEBUI ===
+HTTP 200
+
+=== PRUEBA MEDIANTE INTERFAZ LAN: OLLAMA ===
+HTTP 200

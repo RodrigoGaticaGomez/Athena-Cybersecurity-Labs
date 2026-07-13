@@ -1,0 +1,121 @@
+CASO-006 — INVENTARIO DEL SISTEMA
+Fecha de recolección: 2026-07-12T19:51:45-04:00
+
+=== HOSTNAME ===
+ Static hostname: athena-workstation
+       Icon name: computer-desktop
+         Chassis: desktop 🖥️
+      Machine ID: [REDACTADO]
+         Boot ID: [REDACTADO]
+Operating System: Ubuntu 24.04.4 LTS
+          Kernel: Linux 6.17.0-35-generic
+    Architecture: x86-64
+ Hardware Vendor: ASUS
+  Hardware Model: TUF GAMING B450M-PLUS II
+Firmware Version: 4645
+   Firmware Date: Mon 2026-01-05
+    Firmware Age: 6month 6d
+
+=== SISTEMA OPERATIVO ===
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+
+=== KERNEL ===
+Linux athena-workstation 6.17.0-35-generic #35~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May 26 19:30:42 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
+=== CPU ===
+Arquitectura:                             x86_64
+modo(s) de operación de las CPUs:         32-bit, 64-bit
+Tamaños de las direcciones:               43 bits physical, 48 bits virtual
+Orden de los bytes:                       Little Endian
+CPU(s):                                   16
+Lista de la(s) CPU(s) en línea:           0-15
+ID de fabricante:                         AuthenticAMD
+Nombre del modelo:                        AMD Ryzen 7 2700 Eight-Core Processor
+Familia de CPU:                           23
+Modelo:                                   8
+Hilo(s) de procesamiento por núcleo:      2
+Núcleo(s) por «socket»:                   8
+«Socket(s)»:                              1
+Revisión:                                 2
+Aumento de frecuencia:                    activada
+CPU(s) factor de escala MHz:              58%
+CPU MHz máx.:                             3200,0000
+CPU MHz mín.:                             1550,0000
+BogoMIPS:                                 6387,83
+Indicadores:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca sev sev_es
+Virtualización:                           AMD-V
+Caché L1d:                                256 KiB (8 instancias)
+Caché L1i:                                512 KiB (8 instancias)
+Caché L2:                                 4 MiB (8 instancias)
+Caché L3:                                 16 MiB (2 instancias)
+Modo(s) NUMA:                             1
+CPU(s) del nodo NUMA 0:                   0-15
+Vulnerabilidad Gather data sampling:      Not affected
+Vulnerabilidad Ghostwrite:                Not affected
+Vulnerabilidad Indirect target selection: Not affected
+Vulnerabilidad Itlb multihit:             Not affected
+Vulnerabilidad L1tf:                      Not affected
+Vulnerabilidad Mds:                       Not affected
+Vulnerabilidad Meltdown:                  Not affected
+Vulnerabilidad Mmio stale data:           Not affected
+Vulnerabilidad Old microcode:             Not affected
+Vulnerabilidad Reg file data sampling:    Not affected
+Vulnerabilidad Retbleed:                  Mitigation; untrained return thunk; SMT vulnerable
+Vulnerabilidad Spec rstack overflow:      Mitigation; Safe RET
+Vulnerabilidad Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerabilidad Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerabilidad Spectre v2:                Mitigation; Retpolines; IBPB conditional; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerabilidad Srbds:                     Not affected
+Vulnerabilidad Tsa:                       Not affected
+Vulnerabilidad Tsx async abort:           Not affected
+Vulnerabilidad Vmscape:                   Mitigation; IBPB before exit to userspace
+
+=== MEMORIA ===
+               total       usado       libre  compartido   búf/caché  disponible
+Mem:            19Gi       5,1Gi       8,0Gi        17Mi       6,3Gi        14Gi
+Inter:         8,0Gi       408Ki       8,0Gi
+
+=== DISCOS Y PARTICIONES ===
+NAME     SIZE FSTYPE   LABEL MOUNTPOINTS                         MODEL
+loop0     74M squashfs       /snap/core22/2292                   
+loop1  251,7M squashfs       /snap/firefox/7766                  
+loop2      4K squashfs       /snap/bare/5                        
+loop3   18,5M squashfs       /snap/firmware-updater/210          
+loop4   66,8M squashfs       /snap/core24/1643                   
+loop5  531,4M squashfs       /snap/gnome-42-2204/247             
+loop6  614,5M squashfs       /snap/gnome-46-2404/164             
+loop7   91,7M squashfs       /snap/gtk-common-themes/1535        
+loop8   10,8M squashfs       /snap/snap-store/1270               
+loop9   15,7M squashfs       /snap/snap-store/1367               
+loop10   395M squashfs       /snap/mesa-2404/1165                
+loop11  48,1M squashfs       /snap/snapd/25935                   
+loop12   576K squashfs       /snap/snapd-desktop-integration/343 
+loop13 252,8M squashfs       /snap/firefox/8595                  
+sda    953,9G                                                    XrayDisk 1TB SSD
+├─sda1   200M vfat           /boot/efi                           
+├─sda2    16M                                                    
+├─sda3 552,8G ntfs                                               
+├─sda4   827M ntfs                                               
+└─sda5   400G ext4           /                                   
+
+=== ESPACIO UTILIZADO ===
+S.ficheros     Tipo     Tamaño Usados  Disp Uso% Montado en
+tmpfs          tmpfs      2,0G   2,5M  2,0G   1% /run
+/dev/sda5      ext4       393G    36G  338G  10% /
+tmpfs          tmpfs      9,8G      0  9,8G   0% /dev/shm
+tmpfs          tmpfs      5,0M    12K  5,0M   1% /run/lock
+efivarfs       efivarfs   128K    60K   64K  49% /sys/firmware/efi/efivars
+/dev/sda1      vfat       196M    38M  159M  20% /boot/efi
+tmpfs          tmpfs      2,0G   124K  2,0G   1% /run/user/1000

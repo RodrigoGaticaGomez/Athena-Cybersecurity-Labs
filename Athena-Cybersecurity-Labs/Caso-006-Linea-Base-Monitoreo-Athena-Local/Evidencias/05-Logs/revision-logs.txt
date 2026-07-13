@@ -1,0 +1,26 @@
+CASO-006 — REVISIÓN DE LOGS
+Fecha de recolección: 2026-07-12T20:27:43-04:00
+
+=== OLLAMA: ADVERTENCIAS Y ERRORES DEL ARRANQUE ACTUAL ===
+-- No entries --
+
+=== OPEN WEBUI: EVENTOS WARNING/ERROR/CRITICAL ===
+/usr/local/lib/python3.11/contextlib.py:144: SAWarning: Table '_alembic_tmp_tag' specifies columns 'id' as primary_key=True, not matching locally specified columns 'id', 'user_id'; setting the current primary key columns to 'id', 'user_id'. This warning may become an exception in a future release
+WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
+/app/backend/open_webui/utils/oauth.py:19: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+  from authlib.jose.errors import BadSignatureError
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-12 19:00:43.138 | WARNING  | huggingface_hub.utils._http:_warn_on_warning_headers:932 - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Token indices sequence length is longer than the specified maximum sequence length for this model (595 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (699 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (600 > 512). Running this sequence through the model will result in indexing errors
+Token indices sequence length is longer than the specified maximum sequence length for this model (516 > 512). Running this sequence through the model will result in indexing errors
+WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
+/app/backend/open_webui/utils/oauth.py:19: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+  from authlib.jose.errors import BadSignatureError
+WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
+/app/backend/open_webui/utils/oauth.py:19: AuthlibDeprecationWarning: authlib.jose module is deprecated, please use joserfc instead.
+  from authlib.jose.errors import BadSignatureError
+
+=== ESTADO DE SALUD DEL CONTENEDOR ===
+Estado=running Salud=healthy Reinicios=0 Inicio=2026-07-12T23:08:54.392924338Z

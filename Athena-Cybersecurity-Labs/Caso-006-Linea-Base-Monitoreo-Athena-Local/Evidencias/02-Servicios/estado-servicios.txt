@@ -1,0 +1,46 @@
+CASO-006 — SERVICIOS DE ATHENA LOCAL
+Fecha de recolección: 2026-07-12T20:19:34-04:00
+
+=== OLLAMA: ESTADO ===
+enabled
+active
+
+=== OLLAMA: RESUMEN DEL SERVICIO ===
+● ollama.service - Ollama Service
+     Loaded: loaded (/etc/systemd/system/ollama.service; enabled; preset: enabled)
+    Drop-In: /etc/systemd/system/ollama.service.d
+             └─override.conf
+     Active: active (running) since Sun 2026-07-12 19:08:54 -04; 1h 10min ago
+   Main PID: 8496 (ollama)
+      Tasks: 19 (limit: 23689)
+     Memory: 278.5M (peak: 547.4M)
+        CPU: 5.158s
+     CGroup: /system.slice/ollama.service
+             └─8496 /usr/local/bin/ollama serve
+
+jul 12 19:08:54 athena-workstation ollama[8496]: time=2026-07-12T19:08:54.396-04:00 level=INFO source=routes.go:2004 msg="Listening on [::]:11434 (version 0.31.2)"
+jul 12 19:08:54 athena-workstation ollama[8496]: time=2026-07-12T19:08:54.402-04:00 level=INFO source=runner.go:60 msg="discovering available GPUs..."
+jul 12 19:08:54 athena-workstation ollama[8496]: time=2026-07-12T19:08:54.407-04:00 level=INFO source=model_list_cache.go:112 msg="model list cache hydration complete" models=2 failures=0 elapsed=10.926006ms
+jul 12 19:08:54 athena-workstation ollama[8496]: time=2026-07-12T19:08:54.651-04:00 level=INFO source=model_recommendations.go:177 msg="model recommendations cache sleep scheduled" wait=4h25m24.854687767s consecutive_failures=0
+jul 12 19:08:59 athena-workstation ollama[8496]: time=2026-07-12T19:08:59.658-04:00 level=INFO source=types.go:32 msg="inference compute" id=0 filter_id=0 library=CUDA compute=8.9 name=CUDA0 description="NVIDIA GeForce RTX 4060" libdirs=ollama,cuda_v13 driver=13.2 pci_id=0000:06:00.0 type=discrete total="7.6 GiB" available="7.0 GiB"
+jul 12 19:08:59 athena-workstation ollama[8496]: time=2026-07-12T19:08:59.658-04:00 level=INFO source=routes.go:2054 msg="vram-based default context" total_vram="7.6 GiB" default_num_ctx=4096
+jul 12 19:09:01 athena-workstation ollama[8496]: [GIN] 2026/07/12 - 19:09:01 | 200 |    2.696251ms |       127.0.0.1 | HEAD     "/"
+jul 12 19:09:01 athena-workstation ollama[8496]: [GIN] 2026/07/12 - 19:09:01 | 200 |     951.607µs |       127.0.0.1 | GET      "/api/tags"
+jul 12 20:14:04 athena-workstation ollama[8496]: [GIN] 2026/07/12 - 20:14:04 | 200 |      45.865µs |       127.0.0.1 | HEAD     "/"
+jul 12 20:14:04 athena-workstation ollama[8496]: [GIN] 2026/07/12 - 20:14:04 | 200 |     543.508µs |       127.0.0.1 | GET      "/api/tags"
+
+=== MODELOS INSTALADOS ===
+NAME             ID              SIZE      MODIFIED    
+athena:latest    d8f63eebf2df    4.9 GB    6 hours ago    
+llama3.1:8b      46e0c10c039e    4.9 GB    6 hours ago    
+
+=== CONTENEDOR OPEN WEBUI ===
+CONTAINER ID   IMAGE                                   COMMAND           CREATED       STATUS                       PORTS                      NAMES
+adb6d2e7de56   ghcr.io/open-webui/open-webui:v0.10.1   "bash start.sh"   5 hours ago   Up About an hour (healthy)   127.0.0.1:3000->8080/tcp   open-webui
+
+=== CONFIGURACIÓN RESUMIDA DEL CONTENEDOR ===
+Nombre=/open-webui Imagen=ghcr.io/open-webui/open-webui:v0.10.1 Estado=running Reinicio=unless-stopped Puertos={"8080/tcp":[{"HostIp":"127.0.0.1","HostPort":"3000"}]}
+
+=== USO ACTUAL DEL CONTENEDOR ===
+CONTAINER ID   NAME         CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O       PIDS
+adb6d2e7de56   open-webui   0.14%     1.536GiB / 19.44GiB   7.90%     17.8kB / 2.01kB   567MB / 217kB   60

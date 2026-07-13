@@ -1,0 +1,15 @@
+CASO-004 — Escaneo SYN controlado
+Fecha de recolección: 2026-07-13T17:44:52-04:00
+Origen: 172.28.4.10
+Destino: 172.28.4.20
+Comando: nmap -sS -Pn -p 1-1000 172.28.4.20
+
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-13 21:44 +0000
+Nmap scan report for caso004-target.athena-caso004 (172.28.4.20)
+Host is up (0.000011s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: DE:EF:78:2D:27:6F (Unknown)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.15 seconds

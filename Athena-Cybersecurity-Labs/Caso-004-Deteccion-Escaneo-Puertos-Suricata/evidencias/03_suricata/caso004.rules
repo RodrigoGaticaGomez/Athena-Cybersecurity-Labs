@@ -1,0 +1,1 @@
+alert tcp 172.28.4.10 any -> 172.28.4.20 any (msg:"ATHENA CASO-004 TCP SYN port scan detected"; flags:S; flow:stateless; threshold:type threshold, track by_src, count 10, seconds 5; classtype:network-scan; sid:1000001; rev:1;)

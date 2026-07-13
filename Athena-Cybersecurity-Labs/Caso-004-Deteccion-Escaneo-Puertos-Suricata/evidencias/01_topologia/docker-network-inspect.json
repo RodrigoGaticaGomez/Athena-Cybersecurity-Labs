@@ -1,0 +1,56 @@
+[
+    {
+        "Name": "athena-caso004",
+        "Id": "84d7f5d615a2c0761d5e3d38d5e625baf1115b9d17995fc0cb5cbf96bbd16003",
+        "Created": "2026-07-13T17:32:31.550449993-04:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv4": true,
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "172.28.4.0/24",
+                    "Gateway": "172.28.4.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Options": {},
+        "Labels": {},
+        "Containers": {
+            "280da4733aceebd3d227cdc48d5942c9993d7062084e39935d5a14166f515bf4": {
+                "Name": "caso004-attacker",
+                "EndpointID": "530bd008323407494ddad1f6f2b95bb1c838bdbe76326fe37fb02946b67e98cc",
+                "MacAddress": "1a:25:77:6d:97:61",
+                "IPv4Address": "172.28.4.10/24",
+                "IPv6Address": ""
+            },
+            "474b6760017f70f4fd752c028d10394a9eec264913b6951a80ac806c393a9b2c": {
+                "Name": "caso004-target",
+                "EndpointID": "5ee16d1a11fe8901866f29b5c40c2591dd6cc4e61803ca7fa0768f9b94eb660e",
+                "MacAddress": "de:ef:78:2d:27:6f",
+                "IPv4Address": "172.28.4.20/24",
+                "IPv6Address": ""
+            }
+        },
+        "Status": {
+            "IPAM": {
+                "Subnets": {
+                    "172.28.4.0/24": {
+                        "IPsInUse": 5,
+                        "DynamicIPsAvailable": 251
+                    }
+                }
+            }
+        }
+    }
+]

@@ -1,0 +1,14 @@
+CASO-007 — RESUMEN SANITIZADO DE HYDRA
+Fecha: 2026-07-13
+
+Origen: 172.30.7.10
+Destino: 172.30.7.1:22/TCP
+Usuario objetivo: caso007
+Candidatos probados: 5
+Intentos fallidos: 4
+Autenticaciones exitosas: 1
+Herramienta: Hydra 9.7
+Contraseña temporal: [REDACTADA]
+
+Resultado: fuerza bruta controlada exitosa.
+Nota: la cuenta señuelo fue eliminada al finalizar el laboratorio.

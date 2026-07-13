@@ -1,0 +1,20 @@
+CASO-007 — ESTADO FINAL DEL LABORATORIO
+Fecha de verificación: 2026-07-13T11:26:04-04:00
+
+=== SERVICIOS ===
+SSH: inactive
+Fail2ban: inactive
+
+=== PUERTO TCP/22 ===
+Puerto 22 cerrado
+
+=== FIREWALL ===
+Estado: activo
+
+Hasta                      Acción      Desde
+-----                      ------      -----
+172.17.0.1 11434/tcp on docker0 ALLOW       Anywhere                   # Ollama desde Docker
+
+
+=== ATHENA LOCAL ===
+Estado=running Salud=healthy Puerto=127.0.0.1:3000

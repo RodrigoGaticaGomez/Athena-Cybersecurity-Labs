@@ -1,0 +1,8 @@
+[sshd]
+enabled = true
+port = 22
+backend = systemd
+maxretry = 3
+findtime = 60
+bantime = 300
+banaction = ufw

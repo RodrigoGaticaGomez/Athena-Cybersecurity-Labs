@@ -1,0 +1,8 @@
+CASO-007 — INVENTARIO DE HERRAMIENTAS
+Fecha del laboratorio: 2026-07-13
+
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+Docker version 29.6.1, build 8900f1d
+fail2ban: 1.0.2-3ubuntu0.1
+openssh-server: 1:9.6p1-3ubuntu13.18
+Kali Linux digest: kalilinux/kali-rolling@sha256:8a1ea7281085ffef4963e82766c70869d7db910df88dcbb1f03d2899420b9577

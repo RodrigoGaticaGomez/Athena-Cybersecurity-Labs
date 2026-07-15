@@ -1,0 +1,52 @@
+========================================
+CASO-008 - Estado inicial
+========================================
+
+mar 14 jul 2026 23:22:08 -04
+
+ Static hostname: athena-workstation
+       Icon name: computer-desktop
+         Chassis: desktop 🖥️
+      Machine ID: 47c7ede5e74b45b99924b1df654d5643
+         Boot ID: df301a2880ee43608cb665fa499059cf
+Operating System: Ubuntu 24.04.4 LTS
+          Kernel: Linux 6.17.0-35-generic
+    Architecture: x86-64
+ Hardware Vendor: ASUS
+  Hardware Model: TUF GAMING B450M-PLUS II
+Firmware Version: 4645
+   Firmware Date: Mon 2026-01-05
+    Firmware Age: 6month 1w 1d
+
+Kernel:
+6.17.0-35-generic
+
+Distribución:
+PRETTY_NAME="Ubuntu 24.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.4 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+
+Uso de disco:
+S.ficheros     Tamaño Usados  Disp Uso% Montado en
+tmpfs            2,0G   2,5M  2,0G   1% /run
+/dev/sda5        393G    57G  316G  16% /
+tmpfs            9,8G      0  9,8G   0% /dev/shm
+tmpfs            5,0M    12K  5,0M   1% /run/lock
+efivarfs         128K    60K   64K  49% /sys/firmware/efi/efivars
+/dev/sda1        196M    38M  159M  20% /boot/efi
+tmpfs            2,0G   136K  2,0G   1% /run/user/1000
+
+Memoria:
+               total       usado       libre  compartido   búf/caché  disponible
+Mem:            19Gi       4,5Gi        11Gi        62Mi       3,2Gi        14Gi
+Inter:         8,0Gi          0B       8,0Gi

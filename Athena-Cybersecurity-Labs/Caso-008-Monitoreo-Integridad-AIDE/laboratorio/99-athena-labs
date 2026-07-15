@@ -1,0 +1,8 @@
+# ============================================================
+# ATHENA LABS — CASO-008
+# Monitoreo de integridad del repositorio
+# ============================================================
+
+AthenaIntegrity = p+u+g+s+m+c+sha256+acl+xattrs+ftype
+
+/home/rodrigo/Documentos/Athena-Cybersecurity-Labs AthenaIntegrity

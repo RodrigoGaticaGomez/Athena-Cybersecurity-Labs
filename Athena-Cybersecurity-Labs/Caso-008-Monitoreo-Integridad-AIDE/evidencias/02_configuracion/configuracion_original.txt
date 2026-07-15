@@ -1,0 +1,74 @@
+========================================
+CASO-008 - Configuración por defecto
+========================================
+
+mar 14 jul 2026 23:31:45 -04
+
+total 36
+drwxr-xr-x   4 root root  4096 jul 14 23:24 .
+drwxr-xr-x 152 root root 12288 jul 14 23:25 ..
+-rw-r--r--   1 root root  3832 oct  4  2023 aide.conf
+drwxr-xr-x   2 root root 12288 jul 14 23:25 aide.conf.d
+drwxr-xr-x   2 root root  4096 jul 14 23:24 aide.settings.d
+
+Primeras 60 líneas
+# AIDE conf
+# This configuration file does not contain every possible option
+# For a complete reference, see man aide.conf(5)
+
+# set environment for executable config files included by x_include
+@@x_include_setenv UPAC_settingsd /etc/aide/aide.settings.d
+@@x_include_setenv PATH /bin:/usr/bin
+
+# The daily cron job depends on these paths and settings
+database_in=file:/var/lib/aide/aide.db
+database_out=file:/var/lib/aide/aide.db.new
+database_new=file:/var/lib/aide/aide.db.new
+gzip_dbout=yes
+
+# Set to no to disable report_summarize_changes option.
+#report_summarize_changes=true
+
+# Set to no to disable grouping of files in report.
+#report_grouped=true
+
+# have AIDE version and time of database generation in database
+#database_add_metadata=true
+
+# Set verbosity of aide run and reports
+#log_level=warning
+#report_level=changed_attributes
+
+# Ignore e2fs attributes that cannot be set manually
+report_ignore_e2fsattrs=VNIE
+
+# Set to yes to print the checksums in the report in hex format
+#report_base16 = false
+
+###### GROUPS ######
+
+# See documentation in aide.conf(5). To list the default compount
+# groups available in this aide binary, use aide --version.
+
+# if you want to sacrifice security for speed, list some checksum
+# explicitly here. H specifies that all checksums compiled in are used.
+Checksums = H
+
+# The checksums of the databases to be printed in the report
+# Set to 'E' to disable. Set to a list if you want a special set of
+# checksums for the database itself
+database_attrs = Checksums
+
+OwnerMode = p+u+g+ftype
+Size = s+b
+InodeData = OwnerMode+n+i+Size+l+X
+StaticFile = m+c+Checksums
+Full = InodeData+StaticFile
+VarTime = InodeData+Checksums
+VarInode = VarTime-i
+VarFile = OwnerMode+n+l+X
+VarDir = OwnerMode+n+i+X
+RecreatedDir = OwnerMode+n+X
+
+# Files that stay static but are copied to a ram disk on startup
+# (causing different inode). Please do not use for new rules.

@@ -1,0 +1,17 @@
+========================================
+CASO-008 - Resumen de detección
+========================================
+
+mié 15 jul 2026 00:49:37 -04
+
+Archivo creado:
+laboratorio/simulacion/archivo_nuevo.txt
+
+Archivo eliminado:
+laboratorio/simulacion/archivo_eliminar.txt
+
+Archivo modificado:
+laboratorio/simulacion/archivo_modificar.txt
+
+Resultado:
+AIDE detectó correctamente creación, eliminación y modificación.

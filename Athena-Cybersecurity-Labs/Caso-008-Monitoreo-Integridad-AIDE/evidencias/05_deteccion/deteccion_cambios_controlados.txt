@@ -1,0 +1,70 @@
+Start timestamp: 2026-07-15 00:48:03 -0400 (AIDE 0.18.6)
+AIDE found differences between database and filesystem!!
+
+Summary:
+  Total number of entries:	448
+  Added entries:		1
+  Removed entries:		1
+  Changed entries:		2
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio/simulacion/archivo_nuevo.txt
+
+---------------------------------------------------
+Removed entries:
+---------------------------------------------------
+
+f-----------------: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio/simulacion/archivo_eliminar.txt
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+d = ... mc   ..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio/simulacion
+f > ... mc  H..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio/simulacion/archivo_modificar.txt
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+Directory: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio/simulacion
+ Mtime     : 2026-07-15 00:47:26 -0400        | 2026-07-15 00:47:52 -0400
+ Ctime     : 2026-07-15 00:47:26 -0400        | 2026-07-15 00:47:52 -0400
+
+File: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio/simulacion/archivo_modificar.txt
+ Size      : 38                               | 72
+ Mtime     : 2026-07-15 00:47:26 -0400        | 2026-07-15 00:47:52 -0400
+ Ctime     : 2026-07-15 00:47:26 -0400        | 2026-07-15 00:47:52 -0400
+ SHA256    : YNmCAUxFB905ukBhbbfuofWVmCQIk9mG | g7EYz3Uq1+cco2pRArTg3h0Fiif5GK4B
+             aqPjfcGHiKw=                     | gxhzD1otMPM=
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/athena-labs.db
+ MD5       : mrz4AUarvAeGJjMMNjjKKQ==
+ SHA1      : OeJfe3B3A0qs1DN3y8VnE3w+pHA=
+ SHA256    : P/O47v7nGVtg1HsKJIEUU0ihklm00abf
+             lLFgHD4y/eQ=
+ SHA512    : Tq4ISGG0j3HMxHmywpdf4KPtvk0ioD2Q
+             4aWdU7+PLzmrIAY1aL2Yu3BtyydOcEKW
+             4/A7n8ny8DtQAsk5VJ0N+A==
+ RMD160    : 87NVLjBtgYqhM31HgGuyYi3yYtg=
+ TIGER     : /U1sbzhJ1cyOgGmlhPUcjmwIG0ZPpPlq
+ CRC32     : jGckoQ==
+ CRC32B    : UtMEQg==
+ HAVAL     : svAXiRy0Ppq+LTbSdFd8H7huV9rZgBgs
+             JOFKk77l5TU=
+ WHIRLPOOL : mxE9rAE09EaWOUaMzw4Z6yV1Sp6/IZ3P
+             b7jDqPsC9v9fDb5LFB4U1cjMVzdqmN3S
+             uTpmVXpnlCiLv2ewuzDHbQ==
+ GOST      : tUN2R8f9wPzehVe/o+t1v3BqAJQDcdM9
+             mrcGR065Z3I=
+
+
+End timestamp: 2026-07-15 00:48:03 -0400 (run time: 0m 0s)

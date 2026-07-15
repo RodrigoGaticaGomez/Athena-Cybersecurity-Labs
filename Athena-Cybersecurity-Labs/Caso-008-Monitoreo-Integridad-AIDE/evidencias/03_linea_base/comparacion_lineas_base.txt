@@ -1,0 +1,20 @@
+========================================
+CASO-008 - Comparación de líneas base
+========================================
+
+mié 15 jul 2026 00:42:40 -04
+
+CONFIGURACIÓN GENERAL
+Entradas: 593584
+Tiempo: 55m 32s
+Tamaño: 151M
+
+CONFIGURACIÓN ATHENA LABS
+Entradas: 458
+Tiempo real: 0m0,192s
+Tamaño: 120K
+
+Bases activas:
+
+SHA-256 de la base confiable:
+9a94ce84383e947f970c3655da354a0c3e7d93cef2e2ea43a0cabe40b298f846  /var/lib/aide/athena-labs.db

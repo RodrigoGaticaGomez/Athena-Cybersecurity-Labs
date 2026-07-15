@@ -1,0 +1,286 @@
+========================================
+        ATHENA GUARD JSON v1.0
+========================================
+Fecha: 2026-07-15T14:06:26-04:00
+Host:  athena-workstation
+
+Ejecutando verificación de integridad...
+Start timestamp: 2026-07-15 14:06:26 -0400 (AIDE 0.18.6)
+AIDE found differences between database and filesystem!!
+
+Summary:
+  Total number of entries:	529
+  Added entries:		90
+  Removed entries:		10
+  Changed entries:		20
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/06
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/06/0ea520dee11552fc53e1944e18a73028a704fa
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/1c
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/1c/64ed47fb2b8e221d0c3f359270fe202a4234ba
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/1f
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/1f/75a2a6a90156dde2b8ae2b143bce2639b72e10
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/22
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/22/14037c1253789e6d788bafa47236308873f13d
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/36
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/36/ec178a1240cd109b0775301a1ecb68a75b797d
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/40
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/40/75e1698754cbc6195e3035e8050ba58fc2b29f
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/51/b1a444836d70ace141d3201319b2b68a141a12
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/6c
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/6c/ea6c208c916f2d8d67f0556a1f9eb18c3fac10
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/73
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/73/e627e6dd113bd64e374ece4555bc19599f70fd
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/75
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/75/6ad381f124409685f5ba2a0fff95f7f8e0ffc7
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/77/263529a1fa520af3a135af3eece4e884a317e2
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/78
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/78/bc6c31b6d98298992eb23eb1e0f9afd31aca5d
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/79
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/79/b7ab0a831f5334bacc645bb9ae2d1441dfab04
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/81
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/81/15d8571f37f9a456174045c00f3ff01cc49b4c
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/81/55262d23a82826bc1636448c62bc7bd8d80408
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/95
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/95/081a7b59cc23b2c96b77c0da71b403c41be104
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/95/1e0b14c51abad85107d3039f3ddacded506b8b
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/9a
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/9a/c30151a4c24f375dc3a3f81227a0bbe7a0f2ff
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/9c/34cbce3a5cc5f0fb593d5ba8e2ebe36d20d5f7
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/9f
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/9f/5159a4d65b3c54c8d1da48ba1de6095072cfc5
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/a5
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/a5/fce50aa57810c44b66554e1f05b2d336accca0
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/a7/1331a0045891c691417bd620bce52dfc440c34
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/ab/cea05a98b5d879d50e6bb3e5f0e2b30c22e0f8
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/ae/8a2bd1adda9f5316fccc91964a913b0e682099
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/c6
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/c6/afd9ec7a2b0b2f6161a43ce0861711c2bb37a0
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/d9
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/d9/6acd3853ca376feaaa72c8908f1793956d9a63
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/da
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/da/23547f1e2d1ca993af51caa41a3d26d98778c4
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/e6
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/e6/4420d792af6934e86ba42094a6b75c7ff59b08
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/f1
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/f1/4c556d6f6af905be774b99578ec86805136572
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/f4/1e7fd8e5d352bd910ea6157f9a85ecda17dcb1
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/README.md
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/01_instalacion
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/01_instalacion/estado_inicial.txt
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/02_configuracion
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/02_configuracion/configuracion_original.txt
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/02_configuracion/regla_athena_validada.txt
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/03_linea_base
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/03_linea_base/comparacion_lineas_base.txt
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/03_linea_base/inicializacion_athena_labs.txt
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/03_linea_base/inicializacion_general.txt
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/03_linea_base/verificacion_inicial_limpia.txt
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/04_modificacion_controlada
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/05_deteccion
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/05_deteccion/athena_guard_20260715_005247.txt
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/05_deteccion/athena_guard_20260715_005416.txt
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/05_deteccion/deteccion_cambios_controlados.txt
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/06_analisis
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/06_analisis/resumen_deteccion.txt
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/evidencias/07_capturas
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio/99-athena-labs
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio/aide-athena.conf
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio/simulacion
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio/simulacion/archivo_eliminar.txt
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio/simulacion/archivo_modificar.txt
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/scripts
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/scripts/athena-integrity-check.sh
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-009-Athena-Guard-Eventos-JSON-SIEM
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-009-Athena-Guard-Eventos-JSON-SIEM/capturas
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-009-Athena-Guard-Eventos-JSON-SIEM/configuracion
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-009-Athena-Guard-Eventos-JSON-SIEM/evidencias
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-009-Athena-Guard-Eventos-JSON-SIEM/evidencias/01-ejecucion-cambios-detectados.txt
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-009-Athena-Guard-Eventos-JSON-SIEM/logs
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-009-Athena-Guard-Eventos-JSON-SIEM/logs/athena-guard-events.jsonl
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-009-Athena-Guard-Eventos-JSON-SIEM/pruebas
+d+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-009-Athena-Guard-Eventos-JSON-SIEM/scripts
+f+++++++++++++++++: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-009-Athena-Guard-Eventos-JSON-SIEM/scripts/athena-guard-json.sh
+
+---------------------------------------------------
+Removed entries:
+---------------------------------------------------
+
+d-----------------: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE
+f-----------------: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/README.md
+d-----------------: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio
+f-----------------: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio/99-athena-labs
+f-----------------: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio/aide-athena.conf
+d-----------------: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio/simulacion
+f-----------------: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio/simulacion/archivo_eliminar.txt
+f-----------------: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/laboratorio/simulacion/archivo_modificar.txt
+d-----------------: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/scripts
+f-----------------: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Caso-008-Monitoreo-Integridad-AIDE/scripts/athena-integrity-check.sh
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+d = ... mc   ..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs
+d = ... mc   ..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git
+f > ... mc  H..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/COMMIT_EDITMSG
+f > ... mc  H..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/index
+f > ... mc  H..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/logs/HEAD
+f > ... mc  H..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/logs/refs/heads/main
+f > ... mc  H..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/logs/refs/remotes/origin/main
+d = ... mc   ..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects
+d = ... mc   ..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/51
+d = ... mc   ..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/77
+d = ... mc   ..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/9c
+d = ... mc   ..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/a7
+d = ... mc   ..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/ab
+d = ... mc   ..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/ae
+d = ... mc   ..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/f4
+d = ... mc   ..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/refs/heads
+f = ... mc  H..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/refs/heads/main
+d = ... mc   ..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/refs/remotes/origin
+f = ... mc  H..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/refs/remotes/origin/main
+d = ... mc   ..   : /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+Directory: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs
+ Mtime     : 2026-07-14 23:21:03 -0400        | 2026-07-15 01:15:48 -0400
+ Ctime     : 2026-07-14 23:21:03 -0400        | 2026-07-15 01:15:48 -0400
+
+Directory: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git
+ Mtime     : 2026-07-13 18:55:33 -0400        | 2026-07-15 14:04:18 -0400
+ Ctime     : 2026-07-13 18:55:33 -0400        | 2026-07-15 14:04:18 -0400
+
+File: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/COMMIT_EDITMSG
+ Size      : 47                               | 76
+ Mtime     : 2026-07-13 18:52:18 -0400        | 2026-07-15 01:19:43 -0400
+ Ctime     : 2026-07-13 18:52:18 -0400        | 2026-07-15 01:19:43 -0400
+ SHA256    : nwCsnUDDTPNTunygAdZ7lR11/ls6G7m8 | yCc+mcGP+ljQct49x5efMh5IMffSFM3o
+             zkXHt2qlZOA=                     | t6QQqGdzc9Q=
+
+File: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/index
+ Size      : 17868                            | 21172
+ Mtime     : 2026-07-13 18:52:18 -0400        | 2026-07-15 01:19:43 -0400
+ Ctime     : 2026-07-13 18:52:18 -0400        | 2026-07-15 01:19:43 -0400
+ SHA256    : NrjDo4TbsVCzfU9GZ8VFRruz6ug609yN | xcLZLoBgF4ygQqTUfxcYSzJXkHUIRW2e
+             0ob2DcmaNxI=                     | yXwcGU02Tig=
+
+File: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/logs/HEAD
+ Size      : 1262                             | 1492
+ Mtime     : 2026-07-13 18:52:18 -0400        | 2026-07-15 01:19:43 -0400
+ Ctime     : 2026-07-13 18:52:18 -0400        | 2026-07-15 01:19:43 -0400
+ SHA256    : AE7luXP9vi0Uus80RCMMgxwdnt1DRvnx | G3PHDBX9wDR5rtk+1kj47E5EER4e5TVK
+             yFCFFhzme4Y=                     | gK1RuuNbbkI=
+
+File: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/logs/refs/heads/main
+ Size      : 1262                             | 1492
+ Mtime     : 2026-07-13 18:52:18 -0400        | 2026-07-15 01:19:43 -0400
+ Ctime     : 2026-07-13 18:52:18 -0400        | 2026-07-15 01:19:43 -0400
+ SHA256    : AE7luXP9vi0Uus80RCMMgxwdnt1DRvnx | G3PHDBX9wDR5rtk+1kj47E5EER4e5TVK
+             yFCFFhzme4Y=                     | gK1RuuNbbkI=
+
+File: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/logs/refs/remotes/origin/main
+ Size      : 805                              | 966
+ Mtime     : 2026-07-13 18:55:33 -0400        | 2026-07-15 01:20:25 -0400
+ Ctime     : 2026-07-13 18:55:33 -0400        | 2026-07-15 01:20:25 -0400
+ SHA256    : KUAhy58CVCyY3CfNqa0AGjTOB5NBhbF+ | dtdrLspL20uY8zP8sGwWb1sQIym8z1gw
+             Tgke9fJYXcU=                     | VjL7Hggdilo=
+
+Directory: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects
+ Mtime     : 2026-07-13 18:52:18 -0400        | 2026-07-15 01:19:43 -0400
+ Ctime     : 2026-07-13 18:52:18 -0400        | 2026-07-15 01:19:43 -0400
+
+Directory: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/51
+ Mtime     : 2026-07-13 18:52:18 -0400        | 2026-07-15 01:19:43 -0400
+ Ctime     : 2026-07-13 18:52:18 -0400        | 2026-07-15 01:19:43 -0400
+
+Directory: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/77
+ Mtime     : 2026-07-13 18:51:15 -0400        | 2026-07-15 01:19:43 -0400
+ Ctime     : 2026-07-13 18:51:15 -0400        | 2026-07-15 01:19:43 -0400
+
+Directory: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/9c
+ Mtime     : 2026-07-13 14:58:01 -0400        | 2026-07-15 01:16:29 -0400
+ Ctime     : 2026-07-13 14:58:01 -0400        | 2026-07-15 01:16:29 -0400
+
+Directory: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/a7
+ Mtime     : 2026-07-13 14:56:58 -0400        | 2026-07-15 01:16:29 -0400
+ Ctime     : 2026-07-13 14:56:58 -0400        | 2026-07-15 01:16:29 -0400
+
+Directory: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/ab
+ Mtime     : 2026-07-13 18:02:34 -0400        | 2026-07-15 01:19:43 -0400
+ Ctime     : 2026-07-13 18:02:34 -0400        | 2026-07-15 01:19:43 -0400
+
+Directory: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/ae
+ Mtime     : 2026-07-13 18:02:01 -0400        | 2026-07-15 01:16:29 -0400
+ Ctime     : 2026-07-13 18:02:01 -0400        | 2026-07-15 01:16:29 -0400
+
+Directory: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/objects/f4
+ Mtime     : 2026-07-13 18:51:15 -0400        | 2026-07-15 01:19:43 -0400
+ Ctime     : 2026-07-13 18:51:15 -0400        | 2026-07-15 01:19:43 -0400
+
+Directory: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/refs/heads
+ Mtime     : 2026-07-13 18:52:18 -0400        | 2026-07-15 01:19:43 -0400
+ Ctime     : 2026-07-13 18:52:18 -0400        | 2026-07-15 01:19:43 -0400
+
+File: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/refs/heads/main
+ Mtime     : 2026-07-13 18:52:18 -0400        | 2026-07-15 01:19:43 -0400
+ Ctime     : 2026-07-13 18:52:18 -0400        | 2026-07-15 01:19:43 -0400
+ SHA256    : KwvQdkFs77y3NbMRbc0U0eOaNU1UVoll | l+WHyuatEyMihJQGVVgr5YdWE/oEcvYN
+             6aQjVYO1r0c=                     | Up2BpMuvwiQ=
+
+Directory: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/refs/remotes/origin
+ Mtime     : 2026-07-13 18:55:33 -0400        | 2026-07-15 01:20:25 -0400
+ Ctime     : 2026-07-13 18:55:33 -0400        | 2026-07-15 01:20:25 -0400
+
+File: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/.git/refs/remotes/origin/main
+ Mtime     : 2026-07-13 18:55:33 -0400        | 2026-07-15 01:20:25 -0400
+ Ctime     : 2026-07-13 18:55:33 -0400        | 2026-07-15 01:20:25 -0400
+ SHA256    : KwvQdkFs77y3NbMRbc0U0eOaNU1UVoll | l+WHyuatEyMihJQGVVgr5YdWE/oEcvYN
+             6aQjVYO1r0c=                     | Up2BpMuvwiQ=
+
+Directory: /home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs
+ Mtime     : 2026-07-13 22:50:37 -0400        | 2026-07-15 12:13:11 -0400
+ Ctime     : 2026-07-13 22:50:37 -0400        | 2026-07-15 12:13:11 -0400
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/athena-labs.db
+ MD5       : pzKTxKZ7nW8J61z0+JuXwg==
+ SHA1      : 5AbqM9YA9uQqgTJ5fJ2QA/WiPew=
+ SHA256    : wxHLubz2MksJVxJyyE9/xHum6ANgTkxM
+             jPNXP91CkHA=
+ SHA512    : cRm3Yv3uG3MCboZRMg8Q5Y9w5MzTeZM3
+             ig9sCGTA0V5eoCTPrcD8Acsut/akhyrj
+             MH97JQja6M9Atsk4a6bCAw==
+ RMD160    : +bM+1P2BAVH29Pk5LnPoDUYuNCs=
+ TIGER     : lZG1vv2Zu40ly/HJMs7lYF/bwTpl2wzo
+ CRC32     : H7FwRw==
+ CRC32B    : uVGmCw==
+ HAVAL     : 6/sqlCkrDFNneIoxps35+AyCxdQR5ht+
+             P9sNCuR/zeg=
+ WHIRLPOOL : MEQDFH+2i3n9nTeaLTzCNdv1sloo/LKu
+             tVHZz0rEHRraJAJ51POY6Lbk00UlzcPh
+             pTQ0+XIAcYJRxPBuWY1H1Q==
+ GOST      : FK+ejxHm+GjqhqT0W0QJrjFi4sjArCwj
+             ErX6uKuZ2s4=
+
+
+End timestamp: 2026-07-15 14:06:26 -0400 (run time: 0m 0s)
+
+[ALERTA] AIDE detectó cambios.
+
+Log JSON:
+/home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-009-Athena-Guard-Eventos-JSON-SIEM/logs/athena-guard-events.jsonl

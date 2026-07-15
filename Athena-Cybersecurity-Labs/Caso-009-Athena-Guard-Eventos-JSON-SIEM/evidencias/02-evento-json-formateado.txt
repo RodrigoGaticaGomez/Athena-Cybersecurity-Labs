@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-07-15T14:06:26-04:00",
+  "host": "athena-workstation",
+  "tool": "AIDE",
+  "source": "athena-guard",
+  "severity": "high",
+  "event": "integrity_changes_detected",
+  "path": "/home/rodrigo/Documentos/Athena-Cybersecurity-Labs/Athena-Cybersecurity-Labs/Caso-009-Athena-Guard-Eventos-JSON-SIEM",
+  "description": "AIDE detectó cambios de integridad"
+}

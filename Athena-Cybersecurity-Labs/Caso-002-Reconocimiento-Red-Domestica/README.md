@@ -151,8 +151,8 @@ El host `192.168.1.6` respondió al descubrimiento, pero la evidencia disponible
 
 Los archivos siguientes tienen exactamente el mismo contenido y hash SHA-256:
 
-- `03_MegaWell_Device_UDP_Enumeration_Nmap.png.png`
-- `04_Samsung_Device_Enumeration_Nmap.png.png`
+- `03_MegaWell_Device_UDP_Enumeration_Nmap.png`
+- `04_Samsung_Device_Enumeration_Nmap.png`
 
 Hash compartido:
 
@@ -171,10 +171,10 @@ Por integridad documental:
 
 | N.º | Archivo | Descripción |
 |---:|---|---|
-| 1 | `01_Nmap_Host_Discovery.png.png` | Descubrimiento de cuatro hosts activos |
-| 2 | `02_Router_Service_Enumeration_Nmap.png.png` | Enumeración TCP del router probable |
-| 3 | `03_MegaWell_Device_UDP_Enumeration_Nmap.png.png` | Escaneo UDP del dispositivo Mega Well |
-| 4 | `04_Samsung_Device_Enumeration_Nmap.png.png` | Duplicado exacto de la evidencia 03 |
+| 1 | `01_Nmap_Host_Discovery.png` | Descubrimiento de cuatro hosts activos |
+| 2 | `02_Router_Service_Enumeration_Nmap.png` | Enumeración TCP del router probable |
+| 3 | `03_MegaWell_Device_UDP_Enumeration_Nmap.png` | Escaneo UDP del dispositivo Mega Well |
+| 4 | `04_Samsung_Device_Enumeration_Nmap.png` | Duplicado exacto de la evidencia 03 |
 
 ## Recomendaciones defensivas
 

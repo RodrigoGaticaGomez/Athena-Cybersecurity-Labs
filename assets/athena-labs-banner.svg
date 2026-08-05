@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">Athena Cybersecurity Labs</title>
+  <desc id="desc">Banner oscuro con estética SOC, casco espartano, circuitos y áreas Blue Team, DFIR, SOC e Incident Response.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#02060b"/>
+      <stop offset="0.55" stop-color="#071521"/>
+      <stop offset="1" stop-color="#03070c"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#9aa7b2"/>
+      <stop offset="1" stop-color="#e6edf3"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#0a4b74" stroke-opacity=".18"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="520" fill="url(#bg)"/>
+  <rect width="1600" height="520" fill="url(#grid)"/>
+  <g opacity=".45" fill="none" stroke="#00a8ff" stroke-width="2">
+    <path d="M0 110h180l40 40h120"/><circle cx="180" cy="110" r="4" fill="#00a8ff"/>
+    <path d="M0 405h260l35-35h110"/><circle cx="260" cy="405" r="4" fill="#00a8ff"/>
+    <path d="M1600 95h-210l-35 35h-90"/><circle cx="1390" cy="95" r="4" fill="#00a8ff"/>
+    <path d="M1600 410h-250l-45-45h-100"/><circle cx="1350" cy="410" r="4" fill="#00a8ff"/>
+  </g>
+  <g transform="translate(105 68)" filter="url(#glow)">
+    <path d="M205 15c88 10 145 58 165 105l-58 7 42 52-48 31 26 104-71-54-42 93-82-62-96 19 37-84-31-62 55-16c-9-54 24-117 103-133z" fill="#0a0f14" stroke="#f02121" stroke-width="12"/>
+    <path d="M127 45c82-25 151 4 190 48l-48 2-15 36-95 4-42-31z" fill="#e51b23"/>
+    <path d="M121 151l142-20-53 46 73 9-94 34-37 79-36-87-55-25z" fill="url(#metal)" stroke="#e7edf2" stroke-width="6"/>
+    <path d="M88 220l65 7 36 73-88-21-48 18z" fill="#c6d0d9" stroke="#f02121" stroke-width="7"/>
+    <path d="M250 185l63 24-30 39-53-7z" fill="#05080c"/>
+  </g>
+  <text x="505" y="205" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="800" letter-spacing="8" fill="url(#metal)">ATHENA</text>
+  <text x="510" y="278" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" letter-spacing="12" fill="#56bdff" filter="url(#glow)">CYBERSECURITY LABS</text>
+  <line x1="510" y1="310" x2="1460" y2="310" stroke="#188cc8" stroke-width="3"/>
+  <line x1="880" y1="310" x2="960" y2="310" stroke="#ef2525" stroke-width="5"/>
+  <text x="510" y="365" font-family="monospace" font-size="28" letter-spacing="4" fill="#f0f6fc">BLUE TEAM  |  DFIR  |  SOC  |  INCIDENT RESPONSE</text>
+  <text x="510" y="420" font-family="monospace" font-size="23" fill="#48b8f2">LEARN BY BUILDING. DOCUMENT WITH PURPOSE. PROTECT WITH KNOWLEDGE.</text>
+  <g transform="translate(1370 68)" fill="none" stroke="#168fd0" stroke-width="3" opacity=".85">
+    <circle cx="75" cy="75" r="72"/><circle cx="75" cy="75" r="54"/><path d="M75 28l38 16v30c0 30-16 49-38 61-22-12-38-31-38-61V44z"/>
+    <rect x="60" y="68" width="30" height="30" rx="4"/><path d="M66 68V57a9 9 0 0118 0v11"/>
+  </g>
+  <text x="84" y="490" font-family="monospace" font-size="18" letter-spacing="5" fill="#7dd3fc">DISCIPLINE TODAY • PROTECTION TOMORROW</text>
+</svg>

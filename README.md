@@ -5,7 +5,7 @@
 ### Laboratorios prácticos de ciberseguridad, detección, monitoreo y análisis defensivo
 
 ![Estado](https://img.shields.io/badge/estado-en%20desarrollo-00bfa5)
-![Casos](https://img.shields.io/badge/casos%20documentados-10-2563eb)
+![Casos](https://img.shields.io/badge/casos%20documentados-13-253e8b)
 ![Enfoque](https://img.shields.io/badge/enfoque-Blue%20Team-1d4ed8)
 ![Plataforma](https://img.shields.io/badge/plataforma-Ubuntu%20%7C%20Windows-eab308)
 ![Uso](https://img.shields.io/badge/uso-educativo-64748b)
@@ -47,7 +47,9 @@ Cada caso documenta sus objetivos, entorno, herramientas, procedimiento, evidenc
 | 008 | [Monitoreo de integridad con AIDE](Caso-008-Monitoreo-Integridad-AIDE/) | File Integrity |
 | 009 | [Eventos JSON para SIEM](Caso-009-Athena-Guard-Eventos-JSON-SIEM/) | Log Normalization |
 | 010 | [Integración de Athena Guard con Splunk](Caso-010-Integracion-Athena-Guard-Splunk/) | SIEM Integration |
-
+| 011 | [Respuesta Automatizada con Athena Guard](Caso-011-Respuesta-Automatizada-Athena-Guard/) | Incident Response |
+| 012 | [Investigación Forense SSH](Caso-012-Investigacion-Forense-SSH/) | Digital Forensics (DFIR) |
+| 013 | [Correlación SIEM con Athena Guard](Caso-013-Correlacion-SIEM-Athena-Guard/) | SIEM Correlation |
 ---
 
 ## Tecnologías y herramientas

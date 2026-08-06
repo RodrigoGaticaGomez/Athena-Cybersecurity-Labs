@@ -1,0 +1,25 @@
+=== ATHENA GUARD CORRELATION ENGINE ===
+
+=== EVENTOS CARGADOS ===
+Total: 5
+
+1. 2026-08-06T16:45:01-04:00 | port_scan | 192.168.1.150 -> 192.168.1.10
+2. 2026-08-06T16:46:12-04:00 | ssh_failed_login | 192.168.1.150 -> 192.168.1.10
+3. 2026-08-06T16:46:18-04:00 | ssh_failed_login | 192.168.1.150 -> 192.168.1.10
+4. 2026-08-06T16:46:24-04:00 | ssh_failed_login | 192.168.1.150 -> 192.168.1.10
+5. 2026-08-06T16:47:03-04:00 | ssh_successful_login | 192.168.1.150 -> 192.168.1.10
+
+=== RESULTADO DE CORRELACIÓN ===
+
+[ALERTA CRÍTICA #1]
+Tipo: possible_ssh_compromise
+Severidad: critical
+IP origen: 192.168.1.150
+IP destino: 192.168.1.10
+Intentos SSH fallidos: 3
+Usuario comprometido: rodrigo
+Inicio: 2026-08-06T16:45:01-04:00
+Fin: 2026-08-06T16:47:03-04:00
+Ventana temporal: 122.0 segundos
+
+[OK] Incidentes guardados en: resultados/incidentes_detectados.json

@@ -1,0 +1,14 @@
+[
+    {
+        "incident_type": "possible_ssh_compromise",
+        "severity": "critical",
+        "source_ip": "192.168.1.150",
+        "destination_ip": "192.168.1.10",
+        "failed_login_count": 3,
+        "successful_username": "rodrigo",
+        "start_time": "2026-08-06T16:45:01-04:00",
+        "end_time": "2026-08-06T16:47:03-04:00",
+        "correlation_window_seconds": 122.0,
+        "status": "detected"
+    }
+]
